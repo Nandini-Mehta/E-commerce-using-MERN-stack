@@ -1,3 +1,5 @@
+// This is banner dection in WritableStreamDefaultWriter.apply...
+
 import React from 'react';
 import { BannerData } from '../constants/data';
 import { Grid} from '@mui/material';
