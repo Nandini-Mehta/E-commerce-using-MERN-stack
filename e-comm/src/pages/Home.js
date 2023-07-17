@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
 import Categories from '../components/Categories';
 import Slider from '../components/Slider';
 import { Box } from '@mui/material';
@@ -22,8 +21,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
-      <Box style={{marginTop: '54px'}}>
+      <Box style={{marginTop: '0px'}}>
         <Categories />
         <Slider />
         <SlideItems products={products}/>

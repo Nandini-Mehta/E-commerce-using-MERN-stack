@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Box,Typography, Button,Divider, styled } from '@mui/material';
-
+import { Link } from 'react-router-dom';
 
 const responsive = {
   desktop: {
@@ -68,12 +68,15 @@ const SlideItems = ({products}) => {
       >
       {
         products?.map((product) => (
-          <Box textAlign="center" style={{ padding: '25px 15px'}} key={product.id} >
-          <Image src={product.url} alt='img' key={product.id} />
-          <Info style={{fontWeight:'bold'}}>{product.title.shortTitle}</Info>
-          <Info style={{fontWeight:'bold', color:'green'}}>{product.discount}</Info>
-          <Info>{product.tagline}</Info>
-          </Box>
+          <Link to={`product/${product.id}`} style={{textDecoration:'none'}} key={product.id} >
+            <Box textAlign="center" style={{ padding: '25px 15px'}} >
+              <Image src={product.url} alt='img'/>
+              <Info style={{fontWeight:'bold'}}>{product.title.shortTitle}</Info>
+              <Info style={{fontWeight:'bold', color:'green'}}>{product.discount}</Info>
+              <Info>{product.tagline}</Info>
+            </Box>
+          </Link>
+          
         ))
         
       }

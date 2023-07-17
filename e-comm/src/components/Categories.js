@@ -8,7 +8,7 @@ const Component = styled(Box)`
     margin: 30px 200px 20px 200px;
 `
 const SubComponent = styled(Box)`
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
 `
 const Text = styled(Typography)`
