@@ -49,7 +49,7 @@ const DetailView =()=> {
             <ActionItem product={product}/>
           </Grid>
           <RightContainer item lg={8} md={8} sm={8} xs={12}>
-            <Typography>{product.title.longTitle}</Typography>
+            <Typography style={{ fontSize: 38 }}>{product.title.longTitle}</Typography>
             <Typography>
                 <span style={{ fontSize: 28 }}>₹{product.price.cost}</span>&nbsp;&nbsp;&nbsp; 
                 <span style={{ color: '#388E3C' }}>{product.price.discount} off</span>

@@ -39,8 +39,8 @@ const ActionItem = ({product})=>{
     return(
         <LeftContainer>
             <Image src={product.detailUrl} alt="photo"/><br />
-            <StyledButton onClick={()=> addItemToCart()} style={{marginRight: 10, background: '#ff9f00'}} variant="contained"><Cart />Add to Cart</StyledButton>
-            <StyledButton style={{background: '#fb641b'}} variant="contained"><Flash />Buy Now</StyledButton>
+            <StyledButton onClick={()=> addItemToCart()} style={{marginRight: 10, background: '#621e62'}} variant="contained"><Cart />Add to Cart</StyledButton>
+            <StyledButton style={{background: '#C683D7'}} variant="contained"><Flash />Buy Now</StyledButton>
         </LeftContainer>
     )
 }

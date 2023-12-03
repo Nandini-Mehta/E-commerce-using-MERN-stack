@@ -1,7 +1,7 @@
 export const products = [
     { 
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70', 
+        url: 'https://www.thoughtco.com/thmb/jRhPVjWQjfKvPLi8G15mx9K6IDs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-160078233-56b008595f9b58b7d01f9c27.jpg', 
         detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
         title: {
             shortTitle: 'Home & Kitchen',

@@ -21,7 +21,7 @@ const ColumnText = styled(TableRow)`
 
 const StyledBadge = styled(Badge)`
     margin-right: 10px;
-    color: #00CC00;
+    color: #52006A;
     font-size: 15px;
 `;
 
